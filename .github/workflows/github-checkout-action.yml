@@ -2,6 +2,7 @@ name: github-checkout-action
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 jobs:
   d84b76d0-a1d4-453a-ab62-cfc051e2f968:
     name: checkout
