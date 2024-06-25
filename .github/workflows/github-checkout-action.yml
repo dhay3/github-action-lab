@@ -1,0 +1,14 @@
+name: github-checkout-action
+on:
+  push:
+    branches: [ main ]
+jobs:
+  d84b76d0-a1d4-453a-ab62-cfc051e2f968:
+    name: checkout
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+        run: "git log"
+
+
