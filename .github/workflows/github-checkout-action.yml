@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   d84b76d0-a1d4-453a-ab62-cfc051e2f968:
-    name: checkout
+    name: checkout and run script
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

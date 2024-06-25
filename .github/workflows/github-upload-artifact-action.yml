@@ -1,5 +1,5 @@
 # https://github.com/marketplace/actions/checkout
-name: github-checkout-action
+name: github-upload-artifact-action
 on:
   push:
     branches: [ main ]
