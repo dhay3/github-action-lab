@@ -1,0 +1,21 @@
+# https://github.com/marketplace/actions/checkout
+name: github-checkout-action
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  f8c5c29e-ea4a-43d0-8b62-4f66363d90e4:
+    name: checkout and upload artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+      - name: Create Artifact
+        run: "echo hello world > /tmp/hello-world.txt"
+      - name: Upload a Build Artifact 
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: my-artifacts
+          path: /tmp/hello-world.txt
+          overwrite: true

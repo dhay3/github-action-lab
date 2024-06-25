@@ -1,3 +1,4 @@
+# https://github.com/marketplace/actions/checkout
 name: github-checkout-action
 on:
   push:
@@ -10,6 +11,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
-      - name: Show Logs
-        run: "git log"
+      - name: Run Script
+        run: "python3 ./main.py"
 
