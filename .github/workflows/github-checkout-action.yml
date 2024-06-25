@@ -10,6 +10,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4.1.7
+      - name: Show Logs
         run: "git log"
-
 
