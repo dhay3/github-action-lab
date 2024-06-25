@@ -1,0 +1,14 @@
+# https://github.com/marketplace/actions/labeler
+name: github-labeler-action
+on:
+  - pull_request
+  - workflow_dispatch
+jobs:
+  37afa3c9-3708-43eb-b180-9c1ab4ba00e6:
+    name: Create labeler for PRs
+    runs-on: ubuntu-latest
+    steps:
+      - name: label
+        uses: actions/labeler@v5
+        with:
+         path: .github/labeler/labeler.yml

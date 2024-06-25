@@ -1,4 +1,4 @@
-# https://github.com/marketplace/actions/checkout
+# https://github.com/marketplace/actions/upload-a-build-artifact
 name: github-upload-artifact-action
 on:
   push:

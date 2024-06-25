@@ -1,0 +1,19 @@
+Root:
+  - changed-files:
+      - any-glob-to-any-files: *
+Attachments:
+  - changed-files:
+      - any-glob-to-any-files: Attachments/**
+Books:
+  - changed-files:
+      - any-glob-to-any-files: Books/**
+Documentation:
+  - changed-files:
+      - any-glob-to-any-files: Docs/**/*.md
+Workflows:
+  - changed-files:
+      - any-glob-to-any-files: .github/**
+Source:
+  - all:
+      - changed-files:
+          - any-glob-to-any-files: src/**
