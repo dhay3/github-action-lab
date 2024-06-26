@@ -10,9 +10,12 @@ Books:
 Documentation:
   - changed-files:
       - any-glob-to-any-files: Docs/**/*.md
+Images:
+  - changed-files:
+      - any-glob-to-any-files: Images/**
 Workflows:
   - changed-files:
-      - any-glob-to-any-files: .github/**
+      - any-glob-to-any-files: .github/workflows/**
 Source:
   - all:
       - changed-files:
