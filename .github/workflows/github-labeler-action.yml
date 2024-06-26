@@ -2,11 +2,13 @@
 name: github-LABEL-action
 on:
   - pull_request_target
-  - workflow_dispatch
 jobs:
   c3402b10-04b1-4710-8a9c-637de57614b6:
     name: Create labels for PRs
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: label
         uses: actions/labeler@v5.0.0
