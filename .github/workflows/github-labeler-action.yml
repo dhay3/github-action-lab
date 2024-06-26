@@ -11,4 +11,4 @@ jobs:
       - name: label
         uses: actions/LABEL@v5
         with:
-         path: .github/LABEL/LABEL.yml
+         configuration-path: .github/LABEL/LABEL.yml
