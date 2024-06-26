@@ -13,6 +13,9 @@ Documentation:
 Images:
   - changed-files:
       - any-glob-to-any-files: Images/**
+Templates:
+  - changed-files:
+      - any-glob-to-any-files: Templates/**
 Workflows:
   - changed-files:
       - any-glob-to-any-files: .github/workflows/**
